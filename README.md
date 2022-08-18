@@ -1,2 +1,2 @@
 # ECPE-MM-R
-A Multi-turn Machine Reading Comprehension Framework with Rethink Mechanism for Emotion-Cause Pair Extraction
+The code and datasets will be released after the COLING2022 conference!
