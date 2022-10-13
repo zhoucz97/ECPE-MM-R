@@ -1,14 +1,32 @@
 # ECPE-MM-R
 
-This repository contains the code for our COLING 2022 paper:
+Data and codes for the COLING2022 paper:  **[A Multi-turn Machine Reading Comprehension Framework with Rethink Mechanism for Emotion-Cause Pair Extraction](https://aclanthology.org/2022.coling-1.584/)**
 
-Changzhi Zhou, Dandan Song, Jing Xu, and Zhijing Wu. **A Multi-turn Machine Reading Comprehension Framework with Rethink Mechanism for Emotion-Cause Pair Extraction** [[pdf](https://arxiv.org/abs/2209.07972)]
+If you use our codes or your research is related to our paper, please kindly cite our paper:
 
-Please cite our paper if you use this code.
+```
+@inproceedings{zhou-etal-2022-multi-turn,
+    title = "A Multi-turn Machine Reading Comprehension Framework with Rethink Mechanism for Emotion-Cause Pair Extraction",
+    author = "Zhou, Changzhi  and
+      Song, Dandan  and
+      Xu, Jing  and
+      Wu, Zhijing",
+    booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2022.coling-1.584",
+    pages = "6726--6735",
+}
+```
 
 Some code is based on [BMRC](https://github.com/NKU-IIPLab/BMRC), [Rank-Emotion-Cause](https://github.com/Determined22/Rank-Emotion-Cause), and [DeepInf](https://github.com/xptree/DeepInf).
 
+
+
 ## Dependencies
+
 - Python==3.7
 - PyTorch==1.6
 - [Transformers from Hugging Face](https://github.com/huggingface/transformers)
